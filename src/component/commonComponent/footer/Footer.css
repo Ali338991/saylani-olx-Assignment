@@ -1,0 +1,35 @@
+.footer {
+  margin-top: 50px;
+  background-color: #ebeeef;
+  height: 300px;
+  padding: 0 50px;
+}
+.Link {
+  text-decoration: none;
+  width: 100px;
+
+  color: black;
+}
+.Link:hover {
+  color: gray;
+  text-decoration: none;
+}
+.SLink {
+  margin-left: 10px;
+  text-decoration: none;
+  color: black;
+}
+.SLink:hover {
+  text-decoration: none;
+  color: lightcoral;
+}
+.StoreLink {
+  height: 55px;
+  width: 150px;
+}
+.aaa {
+  color: white;
+  position: absolute;margin-top: 20px;
+
+  right: 50px;
+}

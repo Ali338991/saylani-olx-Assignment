@@ -1,0 +1,105 @@
+
+.input-1 {
+    width: 270px;
+  }
+  .input-2 {
+    margin-left: 12px;
+    width: 550px; 
+    
+  }
+  .Sell-link {
+    /* text-decoration: double; */
+    position: relative;
+    left: 61px;
+    top: 8px;
+    color: black;  
+    font-size: large;
+  }
+
+
+  .Sell-btn {
+    position: relative;
+    left: 75px;
+    top: 12px;
+    background: none;
+    color: black;
+    border-radius: 999px;
+    padding: 0 37px 0 37px;
+    font-weight: 500;
+  }
+
+  
+  @media screen and (min-width: 980px) and (max-width: 1258px) {
+     
+   
+    .input-2 {
+          margin-left: 12px;
+          width: 400px;
+          
+        }
+  
+        .Sell-link {
+          position: relative;
+          left: 61px;
+          top: 8px;
+          color: black;
+        
+          font-size: large;
+        }
+        .Sell-btn {
+          position: relative;
+          left: 75px;
+          top: 12px;
+          background: none;
+          color: black;
+          border-radius: 999px;
+          padding: 0 37px 0 37px;
+          font-weight: 500;
+        }
+    }
+    @media screen and (min-width: 980px) and (max-width: 1137px) {
+     
+   
+      .input-2 {
+            margin-left: 12px;            
+            width: 270px;
+            
+          }    
+         
+      }
+    @media screen and  (max-width: 991px) {
+     
+      
+      .input-1 {
+        width: 50%;
+        margin-bottom: 5px;
+      }
+      .input-2 {
+           width: 50%;
+           margin-left: -3px;
+           
+            
+          }
+          .mini{
+            position: relative;
+            top: -106px;
+            left: 60%;
+          }
+      
+            .Sell-link {
+              position: relative;
+              left: 10px;
+              
+              color: black;
+            
+              font-size: large;
+            }
+            .Sell-btn {
+              position: relative;
+              left: 100px;
+              top: -25px ;
+              width: 15%;
+              border-radius: 999px;
+              padding: 0 10px 0 10px;
+            }
+      }
